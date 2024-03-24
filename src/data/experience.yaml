@@ -1,0 +1,62 @@
+experiences:
+  - company: Teamcore
+    location: Las Condes, Chile
+    position: Desarrollador Full Stack
+    fromDate: Octubre 2020
+    toDate: null
+    responsabilities:
+      - Desarrollo de scrapers para recopilar datos de portales B2B.
+      - Mejoras y desarrollo de nuevos módulos en el administrador interno de la empresa.
+      - Creación de módulos de autogestión para clientes, reduciendo la carga de trabajo del
+        equipo de soporte.
+      - Optimización y desarrollo de procesos asíncronos para cargas masivas de datos.
+      - Creación y desarrollo de un nuevo proyecto API, con el objetivo de migrar un proyecto
+        legacy.
+    technologies:
+      - Python
+      - Django
+      - Falcon
+      - JavaScript
+      - React
+      - Svelte
+      - Vue
+      - Redis
+      - MySQL
+      - Postgres
+      - Redshift
+      - ECS
+      - S3
+      - Lambda
+      - Docker
+
+  - company: Ugu
+    location: Santiago, Chile
+    position: Desarrollador Web (Práctica 2)
+    fromDate: Julio 2020
+    toDate: Septiembre 2020
+    responsabilities:
+      - Desarrollo de funcionalidades para plataforma piloto de participación ciudadana hecha
+        en Ruby on Rails.
+      - Creación y adaptación de nuevos diseños para los módulos de la plataforma.
+    technologies:
+      - Ruby
+      - Ruby on Rails
+      - Postgres
+      - Docker
+
+  - company: Arrendaria
+    location: Las Condes, Chile
+    position: Desarrollador Web (Práctica 1)
+    fromDate: Enero 2020
+    toDate: Marzo 2020
+    responsabilities:
+      - Creación de contenido multimedia para página web y redes sociales.
+      - Desarrollo de aplicación para crear plantillas de venta o arriendo de propiedades.
+      - Desarrollo de script para realizar scraping de propiedades en venta desde portales.
+      - Mantenimiento de página web hecha en Wordpress.
+    technologies:
+      - PHP
+      - Wordpress
+      - React
+      - Python
+

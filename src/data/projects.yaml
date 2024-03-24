@@ -1,0 +1,17 @@
+projects:
+  - title: Participa Las Condes
+    imageUrl: /images/projects/participa-las-condes.png
+    description: Plataforma de participación ciudadana para la comuna de Las Condes.
+    url: https://www.participalascondes.cl/
+
+  - title: Participa GORE Antofagasta
+    imageUrl: /images/projects/participa-gore-antofagasta.png
+    description: Plataforma de participación ciudadana para el GORE de Antofagasta.
+    url: https://participaciongoreantofagasta.gob.cl/
+
+  - title: Cosmonaut
+    imageUrl: /images/projects/cosmonaut.png
+    description:
+      Aplicación web que revisa los últimos conciertos de un artista e intenta predecir el
+      setlist completo del próximo completo.
+    url: https://cosmonaut-khaki.vercel.app/

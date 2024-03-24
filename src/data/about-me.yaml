@@ -1,0 +1,34 @@
+aboutMe: ¡Hola! Soy Andrés Fuenzalida, un ingeniero en informática de Chile 🇨🇱 con alrededor de
+  4 años de experiencia como desarrollador Full Stack. En mi tiempo libre me dedico a
+  componer música y a experimentar con la programación para crear cosas nuevas.
+technicalSkills:
+  - Python
+  - JavaScript
+  - Ruby
+  - SQL
+  - Redis
+  - Django
+  - Falcon
+  - FastAPI
+  - React
+  - Next.js
+  - Svelte
+  - Postgres
+  - MySQL
+  - Oracle SQL
+  - Redshift
+  - Docker
+  - Linux
+  - Git Flow
+  - Tailwind
+education:
+  - name: Duoc UC
+    location: Providencia, Chile
+    title: Ingeniería en Informática
+    fromDate: Marzo 2017
+    toDate: Diciembre 2020
+  - name: Centro de Idiomas Maryland
+    location: Providencia, Chile
+    title: Inglés intermedio
+    fromDate: Mayo 2015
+    toDate: Agosto 2015
