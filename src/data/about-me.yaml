@@ -32,3 +32,10 @@ education:
     title: Inglés intermedio
     fromDate: Mayo 2015
     toDate: Agosto 2015
+certifications:
+  - name: Scrum Foundation Professional Certificate (SFPC)
+    company: CertiProf
+    date: Septiembre 2020
+  - name: "Microsoft Technology Associate: Software Development Fundamentals"
+    company: Certiport
+    date: Junio 2018

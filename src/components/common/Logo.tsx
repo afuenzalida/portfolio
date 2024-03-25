@@ -16,10 +16,7 @@ export default function Logo({
         Andrés Fuenzalida
       </h1>
       <h2
-        className={`text-md select-none text-primary drop-shadow-lg ${subTitleClassName}`}
-        style={{
-          textShadow: `0 0 0.5rem rgba(0, 0, 0, 0.05)`,
-        }}
+        className={`text-md select-none text-primary drop-shadow-lg ${subTitleClassName} text-shadow`}
       >
         Full Stack Developer
       </h2>

@@ -12,6 +12,11 @@ interface Data {
     fromDate: string
     toDate: string
   }[]
+  certifications: {
+    name: string
+    company: string
+    date: string
+  }[]
 }
 
 export default async function AboutMe() {
@@ -25,12 +30,10 @@ export default async function AboutMe() {
         <p>{data.aboutMe}</p>
 
         <div>
-          Las tecnologías que utilizo son:
-          <div className="flex gap-1 mt-2 flex-wrap">
+          Habilidades técnicas:
+          <div className="flex gap-2 mt-2 flex-wrap">
             {data.technicalSkills.map((skill) => (
-              <Badge key={skill} className="text-sm">
-                {skill}
-              </Badge>
+              <Badge key={skill}>{skill}</Badge>
             ))}
           </div>
         </div>
@@ -47,7 +50,7 @@ export default async function AboutMe() {
 
             <div className="flex flex-col gap-1 md:flex-row justify-between">
               <span>
-                {educationItem.name} <span className="text-secondary">| </span>
+                {educationItem.name} <span className="text-gray-500">| </span>
                 {educationItem.location}
               </span>
               <span className="text-primary text-sm">
@@ -55,7 +58,26 @@ export default async function AboutMe() {
               </span>
             </div>
 
-            {index + 1 < data.education.length && <hr className="my-4 border-t-primary" />}
+            {index + 1 < data.education.length && <hr className="my-4 border-t-primary/30" />}
+          </div>
+        ))}
+      </TimeLineContainer>
+
+      <h2 className="text-2xl font-display font-bold mt-10 mb-4">Certificaciones</h2>
+
+      <TimeLineContainer>
+        {data.certifications.map((certification, index) => (
+          <div key={certification.name}>
+            <div className="flex justify-between">
+              <span className="text-lg font-bold text-primary">{certification.name}</span>
+            </div>
+
+            <div className="flex flex-col gap-1 md:flex-row justify-between">
+              <span>{certification.company}</span>
+              <span className="text-primary text-sm">{certification.date}</span>
+            </div>
+
+            {index + 1 < data.education.length && <hr className="my-4 border-t-primary/30" />}
           </div>
         ))}
       </TimeLineContainer>

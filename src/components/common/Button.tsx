@@ -10,7 +10,7 @@ export default function Button({
 } & React.ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
     <button
-      className={`bg-primary text-primary-foreground transition ease-in-out duration-200 hover:brightness-[110%] px-4 py-2 rounded ${className}`}
+      className={`bg-primary text-primary-foreground shadow-lg shadow-primary/30 transition ease-in-out duration-200 hover:brightness-[110%] px-4 py-2 rounded ${className}`}
       {...props}
     >
       {children}

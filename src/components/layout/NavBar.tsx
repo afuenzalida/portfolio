@@ -63,9 +63,9 @@ export default function NavBar() {
       </div>
 
       <div
-        className={`bg-foreground text-background px-5 py-3 ${
+        className={`bg-background/80 px-5 py-3 ${
           isOpenMenu ? 'absolute' : 'hidden'
-        } z-50 right-8 top-16 rounded-md shadow-xl shadow-black/30`}
+        } z-50 right-8 top-16 rounded-md shadow-xl shadow-primary/10 backdrop-blur-md border border-primary`}
       >
         <div className="flex flex-col w-full gap-3">
           {routes.map((route) => (

@@ -33,7 +33,7 @@ export default async function Experience() {
 
               <div className="flex flex-col gap-1 md:flex-row justify-between">
                 <span>
-                  {work.company} <span className="text-secondary">| </span>{work.location}
+                  {work.company} <span className="text-gray-500">| </span>{work.location}
                 </span>
                 <span className="text-primary text-sm">
                   {work.fromDate} — {work.toDate || 'Actualidad'}
@@ -50,15 +50,15 @@ export default async function Experience() {
                 </ul>
               </div>
 
-              <div className="flex flex-wrap gap-1 mt-4">
+              <div className="flex flex-wrap gap-2 mt-4">
                 {work.technologies.map((technology) => (
-                  <Badge key={technology} className="text-sm">
+                  <Badge key={technology}>
                     {technology}
                   </Badge>
                 ))}
               </div>
             </div>
-            {index + 1 < data.experiences.length && <hr className="my-4 border-t-primary" />}
+            {index + 1 < data.experiences.length && <hr className="my-4 border-t-primary/30" />}
           </React.Fragment>
         ))}
       </TimeLineContainer>

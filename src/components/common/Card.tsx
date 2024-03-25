@@ -1,4 +1,4 @@
-import Image, { ImageProps } from 'next/image'
+import Image from 'next/image'
 import { HTMLAttributes } from 'react'
 
 export function Card({
@@ -10,7 +10,7 @@ export function Card({
 
   return (
     <div
-      className={`grid bg-foreground text-background shadow-lg shadow-zinc-400 dark:shadow-zinc-800 rounded-lg ${extraClassName}`}
+      className={`flex flex-col justify-between bg-foreground/10 shadow-md shadow-foreground/20 rounded-lg ${extraClassName}`}
       {...props}
     >
       {children}
