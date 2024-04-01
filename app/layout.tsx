@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Lato, Merriweather } from 'next/font/google'
 import './globals.css'
 import { Providers } from './providers'
+import { Analytics } from '@vercel/analytics/react'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const lato = Lato({
   weight: ['100', '300', '400', '700', '900'],
@@ -31,11 +33,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="icon"
           href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>"
         />
+        
       </head>
       <body>
         <Providers>
           <div className="container mx-auto py-6">{children}</div>
         </Providers>
+        <Analytics />
+        <GoogleAnalytics gaId="G-1M0CKXFFS7" />
       </body>
     </html>
   )

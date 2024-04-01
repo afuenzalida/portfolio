@@ -13,5 +13,5 @@ projects:
     imageUrl: /images/projects/cosmonaut.png
     description:
       Aplicación web que revisa los últimos conciertos de un artista e intenta predecir el
-      setlist completo del próximo completo.
+      setlist completo del próximo concierto.
     url: https://cosmonaut-khaki.vercel.app/
